@@ -1,0 +1,33 @@
+.products {
+  max-width: 640px;
+  width: 100%;
+  margin: 56px auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 6%;
+}
+.products .product {
+  width: 225px;
+  height: 300px;
+  text-align: center;
+}
+.products .product__image {
+  width: 90%;
+  margin-top: 10px;
+}
+.products .product__name {
+  margin: 8px 0;
+  font-size: 1.2em;
+}
+.products .product__description {
+  color: gray;
+}
+.products .product--highlighted {
+  border: 2px solid gold;
+  background-color: #ffff42;
+}
+.products .product--highlighted__name {
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=index.css.map */
